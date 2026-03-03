@@ -4,6 +4,7 @@ import { Products } from "./Products/Products"
 import ClassComponentProps from "./Props/ClassComponentProps"
 import FunctionalComponentProps from "./Props/FunctionalComponentProps"
 import PropsCardsTask from "./Props/PropsCardsTask"
+import { StateAndProps } from "./Props/StateAndProps"
 
 function App() {
 
@@ -24,7 +25,7 @@ function App() {
       {/* <ClassComponentProps name="Balraj" age="22" designation="Python Developer" place="Mumbai" experience="1.5y" skills={["HTML","CSS","JS","REACT","PYTHON","SQL","MONGODB"]}/> */}
       {/* <ClassComponentProps name="OmSai" age="22" designation="Mern Developer" place="Chennai" experience="2y" skills={["HTML","CSS","JS","REACT","MERN","SQL","MONGODB"]}/> */}
 
-      <h1 style={{textAlign:"center",fontSize:"50px",color:"purple"}}>Men's Kurtha Collection....</h1>
+      {/* <h1 style={{textAlign:"center",fontSize:"50px",color:"purple"}}>Men's Kurtha Collection....</h1>
       <PropsCardsTask image="https://valintaformens.com/cdn/shop/products/photo_2023-03-27_02-27-21.jpg?v=1681723151&width=360"
        description="Men's Black Solid Cotton Kurta – Minimalist Traditional Wear for Festive & Casual Styling"
        price="₹1285"
@@ -136,9 +137,11 @@ function App() {
        delivery="Free Delivery"
        rating="4.8 ★"
        reviews="(7,234) Reviews"
-       />
+       /> */}
+       <StateAndProps name="Akhil" age={22} />
     </>
   )
 }
 
 export default App
+
