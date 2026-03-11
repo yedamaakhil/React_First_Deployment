@@ -1,4 +1,14 @@
+import Bootstrap from "./Bootstrap/Bootstrap"
+import ReactBootstrap from "./Bootstrap/ReactBootstrap"
 import AppComponent from "./Components/AppComponent"
+import { Conditional } from "./ConditionalRendering/Conditional"
+import CounterApplication from "./EventHandling/CounterApplication"
+import { OnChange } from "./EventHandling/OnChange"
+import ToggleLogin from "./EventHandling/ToggleLogin"
+import MountingPhaseFunctional from "./LifeCycleFunctionalComponent/MountingphaseFunctional"
+import UnMountingPhaseFunctional from "./LifeCycleFunctionalComponent/UnMountingPhaseFunctional"
+import UpdatingPhaseFunctional from "./LifeCycleFunctionalComponent/UpdatingPhaseFunctional"
+import MountingPhase from "./LifeCycleMethodsClassComponent/MountingPhase"
 import { All } from "./MultiMedia/All"
 import { Products } from "./Products/Products"
 import ClassComponentProps from "./Props/ClassComponentProps"
@@ -138,7 +148,17 @@ function App() {
        rating="4.8 ★"
        reviews="(7,234) Reviews"
        /> */}
-       <StateAndProps name="Akhil" age={22} />
+       {/* <StateAndProps name="Akhil" age={22} /> */}
+       {/* <CounterApplication/> */}
+       {/* <ToggleLogin /> */}
+       {/* <OnChange/> */}
+       {/* <Conditional/> */}
+       {/* <MountingPhase/> */}
+       {/* <MountingPhaseFunctional/> */}
+       {/* <UpdatingPhaseFunctional/> */}
+       {/* <UnMountingPhaseFunctional/> */}
+       {/* <Bootstrap /> */}
+       <ReactBootstrap/>
     </>
   )
 }
